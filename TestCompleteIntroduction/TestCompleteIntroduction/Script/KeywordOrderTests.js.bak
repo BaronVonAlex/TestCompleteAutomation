@@ -1,0 +1,5 @@
+﻿function runKBTests(){
+  KeywordTests.KeywordOrder.Run();
+}
+
+module.exports.runKBTests = runKBTests;

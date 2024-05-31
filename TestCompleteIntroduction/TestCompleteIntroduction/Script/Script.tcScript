@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Main">
+			<folder name="Data">
+				<child name="Data" key="{14492513-B3FA-430B-AC9F-66CA068E1166}" path="Data.js" />
+			</folder>
+			<folder name="Steps">
+				<child name="OrderSteps" key="{6BDA9B7C-6800-46ED-859C-515ADD0ED6BC}" path="OrderSteps.js" />
+				<child name="OrderAppSteps" key="{ABFA3A6A-087E-4945-9EF6-DD88A191536F}" path="OrderAppSteps.js" />
+			</folder>
+		</folder>
+		<folder name="Test">
+			<folder name="Tests">
+				<child name="OrderTests" key="{BF9F7E38-AB1A-4EF5-9D6A-E226465E06A5}" path="OrderTests.js" />
+				<child name="KeywordOrderTests" key="{F70CF823-36D6-46A0-9C8A-EF8D58995845}" path="KeywordOrderTests.js" />
+			</folder>
+			<folder name="Test Runner">
+				<child name="TestRunner" key="{EC234629-034B-4B18-A19A-CF9B5CE6AF4E}" path="TestRunner.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>
