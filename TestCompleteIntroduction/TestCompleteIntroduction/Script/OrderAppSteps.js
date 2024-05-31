@@ -1,5 +1,5 @@
 ﻿function openOrderApp(){
-  Aliases.explorer.wndRelease.Release_.DUIViewWndClassName.Explorer_Pane.CtrlNotifySink.ShellView.Items_View.Orders_exe.DblClick()
+  TestedApps.Orders.Run()
 }
 
 function closeOrderApp(){
