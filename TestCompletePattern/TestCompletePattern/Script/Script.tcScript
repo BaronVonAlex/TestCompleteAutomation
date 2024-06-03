@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Main">
+			<folder name="Data" />
+			<folder name="Common">
+				<child name="CommonSteps" key="{00421FD0-55DF-4F39-985B-0CDF4812FB50}" path="CommonSteps.js" />
+				<child name="ApiUtils" key="{A347353F-7972-41B1-AC96-300795C56384}" path="ApiUtils.js" />
+			</folder>
+			<folder name="Models" />
+			<folder name="Pages">
+				<child name="OrderMainPage" key="{417964B1-F99E-4133-827D-4D466B25E375}" path="OrderMainPage.js" />
+				<child name="OrderPage" key="{ECAF7285-C364-434E-A8E5-28DB8064271E}" path="OrderPage.js" />
+			</folder>
+		</folder>
+		<folder name="Test">
+			<folder name="Test_Cases">
+				<child name="Test1" key="{BBA2CA3E-77FF-40ED-985A-290AA2198167}" path="Test1.js" />
+				<child name="Test2" key="{D9C6252A-F670-4D8B-8A99-C9C9DFDC4693}" path="Test2.js" />
+			</folder>
+			<folder name="Test_Runners">
+				<child name="TestsRunner" key="{A4577EEC-7F19-4413-82BD-6B014D1CE003}" path="TestsRunner.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>

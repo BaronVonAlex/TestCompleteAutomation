@@ -23,11 +23,20 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45443.7779290278"/>
+				<Prp name="datetime" type="D" value="45443.9978268982"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{FCD5F86C-4F25-40E8-8C9B-1A34B01AAD1F}"/>
+				<Prp name="key" type="S" value="{F28B18CB-72EF-4E17-871F-EE9DD414DD0B}"/>
 				<Prp name="nameofroot" type="S" value="Script Test Log [TestRunner\runTests]"/>
-				<Prp name="relpath" type="S" value="5_31_2024_18_40_13_68\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="5_31_2024_23_56_52_244\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45444.4184407639"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F6DDAF59-085A-4E3B-9063-DB978FB80A09}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestRunner\runTests]"/>
+				<Prp name="relpath" type="S" value="6_1_2024_10_02_33_282\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>
