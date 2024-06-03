@@ -1,0 +1,11 @@
+﻿var ApiUtils = require("ApiUtils");
+
+function runTest(){
+  ApiUtils.getGeolocationData();
+
+Log.Message(Project.Variables.country);
+
+Log.Message(Project.Variables.ip);
+
+Log.Message(Project.Variables.city);
+}

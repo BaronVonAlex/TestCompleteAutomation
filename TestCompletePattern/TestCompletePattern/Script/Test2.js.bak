@@ -1,0 +1,14 @@
+﻿var CommonSteps = require("CommonSteps");
+var OrderMainPage = require("OrderMainPage");
+var OrderPage = require("OrderPage");
+
+function createOrderWithAPIResponseData(){
+  CommonSteps.openOrderApp();
+  OrderMainPage.orderMainPage.createNewOrderByMainForm();
+  OrderPage.orderPage.fillOrderDetailsWithAPIData();
+}
+
+function runTestCaseTwo(){
+  createOrderWithAPIResponseData();
+}
+module.exports.runTestCaseTwo = runTestCaseTwo;

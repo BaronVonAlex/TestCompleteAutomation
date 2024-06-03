@@ -26,6 +26,7 @@ function test1(){
   Log.Message("Fill Nacessary Details and click OK Button.");
   OrderSteps.fillCustomerCardNum(Data.cardN3);
   OrderSteps.fillCustomerName(Data.customerN3);
+  OrderSteps.pickCardTypeAE();
   OrderSteps.clickOk();
   
   Log.Message("Close application and press on 'NO' prompt button.")

@@ -1,0 +1,24 @@
+﻿function Test1()
+{
+  let orders = Aliases.Orders;
+  let listView = orders.MainForm.OrdersView;
+  listView.ClickItem("Customer1", 0);
+  listView.ClickItemR("Customer1", 0);
+  listView.PopupMenu.Click("Edit order...");
+  orders.OrderForm.ButtonCancel.ClickButton();
+  listView.ClickItemR("Customer1", 0);
+  listView.PopupMenu.Click("Delete order");
+  orders.dlgConfirmation.btnNo.ClickButton();
+}
+
+function Test2()
+{
+  let orders = Aliases.Orders;
+  let dlgConfirmation = orders.dlgConfirmation;
+  dlgConfirmation.Close();
+  dlgConfirmation.btnNo.ClickButton();
+  let mainForm = orders.MainForm;
+  mainForm.OrdersView.ClickItem("Customer1", 0);
+  mainForm.ToolBar.ClickItem(6, false);
+  dlgConfirmation.btnYes.ClickButton();
+}
