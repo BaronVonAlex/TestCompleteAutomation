@@ -29,10 +29,10 @@ class OrderPage{
         Log.Checkpoint(data.CUSTOMER_Checkpoint_MSG);
         this.customerName.Keys(Project.Variables.CUSTOMER_TEXT_INPUT);
       } else {
-        Log.Error(Project.Variables.Customer_ERR_1);
+        Log.Error(data.CUSTOMER_ERR_MSG_1);
       }
     } else {
-      Log.Error(Project.Variables.Customer_ERR_2);
+      Log.Error(data.Variables.CUSTOMER_ERR_MSG_2);
     }
     return this;
   }

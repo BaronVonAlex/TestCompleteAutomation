@@ -26,7 +26,7 @@ class OrderPage{
   checkIfCustomerInputFieldCanBeEditedAndEnabled(){  
     if (this.customerName != null && this.customerName.Enabled == true){
       if(this.customerName.ReadOnly == false){
-        Log.Checkpoint(Project.Variables.CUSTOMER_Checkpoint_MSG);
+        Log.Checkpoint(data.CUSTOMER_Checkpoint_MSG);
         this.customerName.Keys(Project.Variables.CUSTOMER_TEXT_INPUT);
       } else {
         Log.Error(Project.Variables.Customer_ERR_1);
