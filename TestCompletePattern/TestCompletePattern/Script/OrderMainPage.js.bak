@@ -1,4 +1,6 @@
-﻿class OrderMainPage{
+﻿var data = require("Data")
+
+class OrderMainPage{
   constructor(){
     this.mainForm = Aliases.Orders.MainForm;
     this.orderForm = Aliases.Orders.OrderForm;
@@ -14,7 +16,7 @@
     return this;
   }
   
-  clickOnUserByCustomerName(CustomerName){
+  clickOnOrderByCustomerName(CustomerName){
     this.orderView.ClickItem(CustomerName)
     return this;
   }
@@ -36,20 +38,20 @@
   
   checkIfAddedOrderHasEditOptions() {   
     if(this.orderForm.Exists == true){
-      Log.Checkpoint(Project.Variables.EDIT_CHECKPOINT_MSG)
+      Log.Checkpoint(data.EDIT_ERROR_CHECKPOINT_MSG)
       this.cancelEditForm.Click();
     }else{
-      Log.Error(Project.Variables.EDIT_ERROR_MSG)
+      Log.Error(data.EDIT_ERROR_ERROR_MSG)
     }
     return this;
   }
   
   checkIfAddedOrderHasDeleteOptions() {   
     if(this.deletionPrompt.Exists == true){
-      Log.Checkpoint(Project.Variables.DELETE_CHECKPOINT_MSG)
+      Log.Checkpoint(data.DELETE_ORDER_CHECKPOINT_MSG)
       this.confirmDeletion.Click();
     }else{
-      Log.Error(Project.Variables.DELETE_ERROR_MSG)
+      Log.Error(data.DELETE_ORDER_ERROR_MSG)
     }
     return this;
   }

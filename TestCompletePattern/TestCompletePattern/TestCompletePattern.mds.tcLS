@@ -28,141 +28,63 @@
 				<Node name="datav4">
 					<Node name="var0">
 						<Node name="value">
-							<Prp name="strvalue" type="H" value="43007500730074006F006D006500720020004600690065006C006400200069007300200045006E00610062006C00650064002E00"/>
+							<Prp name="strvalue" type="H" value="4F00720064006500720073007C004E006500770020006F0072006400650072002E002E002E00"/>
 						</Node>
-						<Prp name="name" type="S" value="CUSTOMER_Checkpoint_MSG"/>
+						<Prp name="name" type="S" value="NEW_ORDER_Text"/>
 					</Node>
 					<Node name="var1">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="43007500730074006F006D006500720020004600690065006C0064002000690073002000520065006100640020006F006E006C0079002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="Customer_ERR_1"/>
-					</Node>
-					<Node name="var10">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4F0072006400650072002000630061006E002000620065002000440065006C0065007400650064002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="DELETE_CHECKPOINT_MSG"/>
-					</Node>
-					<Node name="var11">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4F0072006400650072002000630061006E0020006E006F0074002000620065002000440065006C0065007400650064002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="DELETE_ERROR_MSG"/>
-					</Node>
-					<Node name="var12">
 						<Node name="value">
 							<Prp name="strvalue" type="H" value="2400310030003000"/>
 						</Node>
 						<Prp name="name" type="S" value="Unit_Price_Expected_Value"/>
 					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="postal"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="timezone"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="readme"/>
+					</Node>
 					<Node name="var13">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="55006E00690074002000500072006900630065002000560061006C0075006500200069007300200063006F00720072006500630074002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="UNIT_RPICE_CHECKPOINT_MSG"/>
+						<Prp name="name" type="S" value="agify_count"/>
 					</Node>
 					<Node name="var14">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="55006E00690074002000500072006900630065002000560061006C0075006500200069007300200069006E0063006F00720072006500630074002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="UNIT_RPICE_ERROR_MSG"/>
+						<Prp name="name" type="S" value="agify_name"/>
 					</Node>
 					<Node name="var15">
+						<Prp name="name" type="S" value="agify_age"/>
+					</Node>
+					<Node name="var2">
 						<Node name="value">
 							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F006900700069006E0066006F002E0069006F002F003100360031002E003100380035002E003100360030002E00390033002F00670065006F00"/>
 						</Node>
 						<Prp name="name" type="S" value="GEOLOCATION_API"/>
 					</Node>
-					<Node name="var16">
+					<Node name="var3">
 						<Node name="value">
 							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F006100700069002E00610067006900660079002E0069006F002F003F006E0061006D0065003D0059006F006F006E00"/>
 						</Node>
 						<Prp name="name" type="S" value="AGIFY_API"/>
 					</Node>
-					<Node name="var17">
+					<Node name="var4">
 						<Prp name="name" type="S" value="ip"/>
 					</Node>
-					<Node name="var18">
+					<Node name="var5">
 						<Prp name="name" type="S" value="city"/>
 					</Node>
-					<Node name="var19">
+					<Node name="var6">
 						<Prp name="name" type="S" value="region"/>
 					</Node>
-					<Node name="var2">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="43007500730074006F006D006500720020004600690065006C006400200064006F00650073006E002700740020004500780069007300740020006F0072002000690073006E0027007400200045006E00610062006C00650064002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="Customer_ERR_2"/>
-					</Node>
-					<Node name="var20">
+					<Node name="var7">
 						<Prp name="name" type="S" value="country"/>
 					</Node>
-					<Node name="var21">
+					<Node name="var8">
 						<Prp name="name" type="S" value="loc"/>
 					</Node>
-					<Node name="var22">
-						<Prp name="name" type="S" value="org"/>
-					</Node>
-					<Node name="var23">
-						<Prp name="name" type="S" value="postal"/>
-					</Node>
-					<Node name="var24">
-						<Prp name="name" type="S" value="timezone"/>
-					</Node>
-					<Node name="var25">
-						<Prp name="name" type="S" value="readme"/>
-					</Node>
-					<Node name="var26">
-						<Prp name="name" type="S" value="agify_count"/>
-					</Node>
-					<Node name="var27">
-						<Prp name="name" type="S" value="agify_name"/>
-					</Node>
-					<Node name="var28">
-						<Prp name="name" type="S" value="agify_age"/>
-					</Node>
-					<Node name="var3">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4D0061007300740065007200430061007200640020004600690065006C0064002000630061006E002000620065002000730065006C00650063007400650064002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="MasterCard_Checkpoint_MSG"/>
-					</Node>
-					<Node name="var4">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4D0061007300740065007200430061007200640020004600690065006C0064002000630061006E0020006E006F0074002000620065002000730065006C00650063007400650064002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="MC_ERR_1"/>
-					</Node>
-					<Node name="var5">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4D0061007300740065007200430061007200640020004600690065006C006400200044006F00650073006E002700740020004500780069007300740020006F0072002000490073006E0027007400200045006E00610062006C00650064002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="MC_ERR_2"/>
-					</Node>
-					<Node name="var6">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="43007500730074006F006D00650072003100"/>
-						</Node>
-						<Prp name="name" type="S" value="CUSTOMER_TEXT_INPUT"/>
-					</Node>
-					<Node name="var7">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4F00720064006500720073007C004E006500770020006F0072006400650072002E002E002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="NEW_ORDER_Text"/>
-					</Node>
-					<Node name="var8">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4F0072006400650072002000630061006E0020006200650020004500640069007400650064002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="EDIT_CHECKPOINT_MSG"/>
-					</Node>
 					<Node name="var9">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="4F0072006400650072002000630061006E0020006E006F007400200062006500200045006400690074002E00"/>
-						</Node>
-						<Prp name="name" type="S" value="EDIT_ERROR_MSG"/>
+						<Prp name="name" type="S" value="org"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>

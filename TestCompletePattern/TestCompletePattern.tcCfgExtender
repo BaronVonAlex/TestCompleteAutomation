@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{BBA2CA3E-77FF-40ED-985A-290AA2198167}"/>
+				<Prp name="activity" type="S" value="{ECAF7285-C364-434E-A8E5-28DB8064271E}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{aa64d39a-7b7f-41a3-847a-62cb33e4ae0a}">
@@ -33,7 +33,7 @@
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{93765269-c25d-4cd5-b6bf-5d7454869c93}">
-								<Prp name="key" type="S" value="{916F4385-C0E9-41B3-8A0B-D3DE5EB36CCE}"/>
+								<Prp name="key" type="S" value="{701C3116-F11B-433B-AF39-635AC7299D52}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{DD3F2DE9-80B5-4703-800A-E9085303B381}"/>
 							<Prp name="focused" type="S" value="{916F4385-C0E9-41B3-8A0B-D3DE5EB36CCE}"/>
@@ -61,7 +61,11 @@
 						<Node name="editor">
 							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}"/>
-							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}"/>
+							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
+								<Node name="main"/>
+								<Node name="tables"/>
+								<Node name="toolbox"/>
+							</Node>
 							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
 							<Prp name="editor" type="S" value="{2245AB33-A517-4B4F-8B88-52F998E44C13}"/>
 							<Prp name="focused" type="S" value="{51112154-9324-4AE1-A1AF-0040E3BFACC3}"/>
@@ -275,6 +279,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{aba7ba0c-0f6c-4d15-b8c2-441f92f84df8}"/>
 					<Node name="{bba2ca3e-77ff-40ed-985a-290aa2198167}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="12"/>
@@ -369,9 +374,11 @@
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="testcompletepattern">
 					<Node name="testcompletepattern">
+						<Node name="keywordtests"/>
 						<Node name="script">
 							<Node name="main">
 								<Node name="common"/>
+								<Node name="data"/>
 								<Node name="pages"/>
 							</Node>
 							<Node name="test">

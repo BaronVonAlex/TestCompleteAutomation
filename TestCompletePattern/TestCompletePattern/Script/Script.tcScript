@@ -2,7 +2,9 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<folder name="Main">
-			<folder name="Data" />
+			<folder name="Data">
+				<child name="Data" key="{ABA7BA0C-0F6C-4D15-B8C2-441F92F84DF8}" path="Data.js" />
+			</folder>
 			<folder name="Common">
 				<child name="CommonSteps" key="{00421FD0-55DF-4F39-985B-0CDF4812FB50}" path="CommonSteps.js" />
 				<child name="ApiUtils" key="{A347353F-7972-41B1-AC96-300795C56384}" path="ApiUtils.js" />

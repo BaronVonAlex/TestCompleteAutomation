@@ -1,4 +1,6 @@
 ﻿var ApiUtils = require("ApiUtils");
+var data = require("Data")
+
 class OrderPage{
   constructor(){
     this.orderForm = Aliases.Orders.OrderForm;
@@ -24,7 +26,7 @@ class OrderPage{
   checkIfCustomerInputFieldCanBeEditedAndEnabled(){  
     if (this.customerName != null && this.customerName.Enabled == true){
       if(this.customerName.ReadOnly == false){
-        Log.Checkpoint(Project.Variables.CUSTOMER_Checkpoint_MSG);
+        Log.Checkpoint(data.CUSTOMER_Checkpoint_MSG);
         this.customerName.Keys(Project.Variables.CUSTOMER_TEXT_INPUT);
       } else {
         Log.Error(Project.Variables.Customer_ERR_1);
@@ -39,12 +41,12 @@ class OrderPage{
     if (this.masterCardRadioButton != null && this.masterCardRadioButton.Enabled == true){
       if(this.masterCardRadioButton.CanSelect == true){
         this.masterCardRadioButton.Click();
-        Log.Checkpoint(Project.Variables.MasterCard_Checkpoint_MSG);
+        Log.Checkpoint(data.MasterCard_Checkpoint_MSG);
       } else {
-        Log.error(Project.Variables.MC_ERR_1);
+        Log.error(data.MasterCard_ERR_MSG_1);
       }
     } else {
-      Log.Error(Project.Variables.MC_ERR_2)
+      Log.Error(data.MasterCard_ERR_MSG_2)
     }
     return this;
   }
@@ -56,9 +58,9 @@ class OrderPage{
   
   checkIfUnitPriceRemainsSame(){  
     if(this.pricePerUnit.Text == Project.Variables.Unit_Price_Expected_Value){
-      Log.Checkpoint(Project.Variables.UNIT_RPICE_CHECKPOINT_MSG)
+      Log.Checkpoint(data.UNIT_PRICE_CHECKPOINT_MSG)
     } else {
-      Log.Error(Project.Variables.UNIT_RPICE_ERROR_MSG, "Actual:" + this.pricePerUnit.Text, "Expected: " + Project.Variables.Unit_Price_Expected_Value)
+      Log.Error(data.UNIT_PRICE_ERR_MSG, "Actual:" + this.pricePerUnit.Text, "Expected: " + Project.Variables.Unit_Price_Expected_Value)
     }
     return this;
   }

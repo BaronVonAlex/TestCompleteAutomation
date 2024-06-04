@@ -13,49 +13,10 @@
 	<variables key="{AA668D3F-CEE0-44EA-BADB-369F6E662333}">
 		<data Version="4">
 			<Items>
-				<Variable Name="CUSTOMER_Checkpoint_MSG" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="Customer_ERR_1" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="Customer_ERR_2" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="MasterCard_Checkpoint_MSG" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="MC_ERR_1" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="MC_ERR_2" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="CUSTOMER_TEXT_INPUT" Type="String" Local="True">
-					<DefValue />
-				</Variable>
 				<Variable Name="NEW_ORDER_Text" Type="String" Local="True">
 					<DefValue />
 				</Variable>
-				<Variable Name="EDIT_CHECKPOINT_MSG" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="EDIT_ERROR_MSG" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="DELETE_CHECKPOINT_MSG" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="DELETE_ERROR_MSG" Type="String" Local="True">
-					<DefValue />
-				</Variable>
 				<Variable Name="Unit_Price_Expected_Value" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="UNIT_RPICE_CHECKPOINT_MSG" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="UNIT_RPICE_ERROR_MSG" Type="String" Local="True">
 					<DefValue />
 				</Variable>
 				<Variable Name="GEOLOCATION_API" Type="String" Local="True">
