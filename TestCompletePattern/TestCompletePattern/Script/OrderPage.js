@@ -3,17 +3,17 @@ class OrderPage{
   constructor(){
     this.orderForm = Aliases.Orders.OrderForm;
     this.orderFormGroup =  this.orderForm.Group;
-    this.customerName = this.orderForm.Group.Customer;
-    this.masterCardRadioButton = this.orderForm.Group.MasterCard;
+    this.customerName = this.orderFormGroup.Customer;
+    this.masterCardRadioButton = this.orderFormGroup.MasterCard;
     this.newOrderConfirmButton = this.orderForm.ButtonOK;
-    this.pricePerUnit = this.orderForm.Group.Price;
-    this.cityInput = this.orderForm.Group.City;
-    this.streetInput = this.orderForm.Group.Street;
-    this.stateInput = this.orderForm.Group.State_;
-    this.cardTypeAE = this.orderForm.Group.AE;
-    this.cardNo = this.orderForm.Group.CardNo;
-    this.totalInput = this.orderForm.Group.groupBox1.Total;
-    this.quantityInput = this.orderForm.Group.Quantity;
+    this.pricePerUnit = this.orderFormGroup.Price;
+    this.cityInput = this.orderFormGroup.City;
+    this.streetInput = this.orderFormGroup.Street;
+    this.stateInput = this.orderFormGroup.State_;
+    this.cardTypeAE = this.orderFormGroup.AE;
+    this.cardNo = this.orderFormGroup.CardNo;
+    this.totalInput = this.orderFormGroup.groupBox1.Total;
+    this.quantityInput = this.orderFormGroup.Quantity;
   }
   
   clickOnCustomerNameToActivateInputField(){

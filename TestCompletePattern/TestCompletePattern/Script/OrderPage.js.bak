@@ -66,7 +66,7 @@ class OrderPage{
   fillOrderDetailsWithAPIData(){
     ApiUtils
     .getAgifyData()
-    .getAgifyData();
+    .getGeolocationData();
     
     this.totalInput.Keys(Project.Variables.agify_age);
     this.customerName.Keys(Project.Variables.agify_name);
