@@ -1,0 +1,5 @@
+﻿function isPolynomial(expression) {
+  var polynomialPattern = /^([+-]?(\d+)?(\.\d+)?(x(\^\d+)?)?)+([+-](\d+)?(\.\d+)?(x(\^\d+)?)?)*$/;
+  return polynomialPattern.test(expression);
+}
+module.exports.isPolynomial = isPolynomial;

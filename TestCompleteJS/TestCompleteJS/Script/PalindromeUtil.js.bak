@@ -1,0 +1,11 @@
+﻿function isPalindrome(str) {
+    let rev = str.split("").reverse().join("");
+ 
+    if (rev == str) {
+        return true
+    }
+    return false
+ 
+}
+
+module.exports.isPalindrome = isPalindrome;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="main">
+			<folder name="common">
+				<child name="CommonSteps" key="{C60BD75B-A2CF-47CE-8DA7-6E8BCE567FFA}" path="CommonSteps.js" />
+				<child name="EventHandler" key="{22AF0014-D487-4C26-8B98-DC572BDD8CDD}" path="EventHandler.js" />
+			</folder>
+			<folder name="data">
+				<child name="Data" key="{828CE207-8395-46D1-B620-674C0F0E5BBF}" path="Data.js" />
+			</folder>
+			<folder name="util">
+				<child name="PalindromeUtil" key="{CECAB590-1F18-45DF-909F-062846459318}" path="PalindromeUtil.js" />
+			</folder>
+			<folder name="pages">
+				<child name="HomeOrderPage" key="{407738D8-4F9C-4115-AEB5-3F970338556B}" path="HomeOrderPage.js" />
+				<child name="AddOrderPage" key="{2721DC47-11A1-48BE-89F7-92EADB144E29}" path="AddOrderPage.js" />
+			</folder>
+		</folder>
+		<folder name="test">
+			<folder name="test cases">
+				<child name="Test1" key="{B91FA1CC-CBD1-4FA8-AF20-FE7B3FF079A2}" path="Test1.js" />
+				<child name="Test2" key="{AE1863AE-10C2-43D1-A1B9-D2382B2934F5}" path="Test2.js" />
+			</folder>
+			<folder name="test runners">
+				<child name="Test_Runner" key="{9FA95914-C155-47A5-A0BB-2D97D3402A07}" path="Test_Runner.js" />
+			</folder>
+		</folder>
+	</children>
+</Root>
