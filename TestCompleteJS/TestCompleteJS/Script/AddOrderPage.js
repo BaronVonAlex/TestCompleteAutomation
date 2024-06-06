@@ -1,5 +1,4 @@
 ﻿var Assertions = require("Assertions");
-var Assertions = require("Assertions");
 var data = require("Data")
 
 class AddOrderPage{
