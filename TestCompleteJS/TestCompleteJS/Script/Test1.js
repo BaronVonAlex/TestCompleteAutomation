@@ -18,7 +18,7 @@ function todaysDateMultiplication(){
 }
 
 function checkIfParamIsPalindrome(){
-  Log.Checkpoint("Palindrome Check: " + PalindromeUtil.isPalindrome("deified"));
+  Log.Checkpoint("Palindrome Check: " + PalindromeUtil.isPalindrome("DeiFiEd"));
 }
 
 function runAllTests(){

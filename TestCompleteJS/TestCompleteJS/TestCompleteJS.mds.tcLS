@@ -32,6 +32,24 @@
 						</Node>
 						<Prp name="name" type="S" value="NEW_ORDER_Text"/>
 					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="D710D010DB10D010E010D010E810D510D810DA10D810E11020004E003100"/>
+						</Node>
+						<Prp name="name" type="S" value="STREET_EXP_VALUE"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="D710D110D810DA10D810E110D810"/>
+						</Node>
+						<Prp name="name" type="S" value="CITY_EXP_VALUE"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="3000310038003200"/>
+						</Node>
+						<Prp name="name" type="S" value="ZIP_EXP_VALUE"/>
+					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>
 			</Node>

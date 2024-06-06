@@ -46,9 +46,7 @@ class AddOrderPage{
     var splitStringObj = stringObj.split(',');
         
     this.fillCityDetails(aqString.Trim(splitStringObj[0]));
-    
     this.fillStreetDetails(aqString.Trim(splitStringObj[1]));
-    
     this.fillZipCodeField(aqString.Trim(splitStringObj[2]));
     
     return this;

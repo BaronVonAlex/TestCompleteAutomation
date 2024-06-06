@@ -1,7 +1,9 @@
 ﻿function isPalindrome(string) {
-    let reverseString = string.split("").reverse().join("");
+    var lowerCaseString = string.toLowerCase();
+  
+    let reverseString = lowerCaseString.split("").reverse().join("");
  
-    if (reverseString == string) {
+    if (reverseString == lowerCaseString) {
         return true
     }
     return false

@@ -14,11 +14,11 @@ function SumOfDigitsConcatenation(num1, num2, num3) {
   if (checkIfNumberIs3Digit(num1) && checkIfNumberIs3Digit(num2) && checkIfNumberIs3Digit(num3)) {
     var firstNumToStr = aqConvert.VarToStr(num1);
     var secondNumToStr = aqConvert.VarToStr(num2);
-    var thirdNumToStr = aqConvert.VarToStr(num3);
+    var thirdNumToStr = aqConvert.VarToStr(num3);    
 
-    var sumOfDigitsNum1 = 0;
-    var sumOfDigitsNum2 = 0;
-    var sumOfDigitsNum3 = 0;
+    var sumOfDigitsNum1 = 1;
+    var sumOfDigitsNum2 = 1;
+    var sumOfDigitsNum3 = 1;
 
     for (var i = 0; i < firstNumToStr.length; i++) {
       sumOfDigitsNum1 *= parseInt(firstNumToStr[i]);
@@ -31,13 +31,10 @@ function SumOfDigitsConcatenation(num1, num2, num3) {
     for (var i = 0; i < thirdNumToStr.length; i++) {
       sumOfDigitsNum3 *= parseInt(thirdNumToStr[i]);
     }
-
-    var concatenated1stAnd2nd = aqString.Concat(
-      aqConvert.VarToStr(sumOfDigitsNum1), 
-      aqConvert.VarToStr(sumOfDigitsNum2)
-    );
-        
-    var concatSum = aqString.Concat(concatenated1stAnd2nd, aqConvert.VarToStr(sumOfDigitsNum3));
+    
+    var concatSum = aqConvert.VarToStr(sumOfDigitsNum1) +
+                             aqConvert.VarToStr(sumOfDigitsNum2) +
+                             aqConvert.VarToStr(sumOfDigitsNum3);
     
     return concatSum;
   } else {
@@ -80,18 +77,18 @@ function customDatePattern(){
 
 function multiplicationOfTodaysDate(){
   var dateOfToday = aqDateTime.Today();
-  
   var day = aqDateTime.GetDay(dateOfToday);
   var dayString = aqConvert.VarToStr(day);
   
+  var multipliedNum = 1;
+  
   for (var i = 0; i < dayString.length; i++){
     var digit = parseInt(dayString[i]);
-    if (digit > 0){
-      return digit;
-    } else {
-      Log.Warning("Digit is 0");
-    }
+    if (digit !== 0){
+      multipliedNum *= digit;
+    } 
   }
+    return multipliedNum;
 }
 
 module.exports.openOrderApp = openOrderApp;

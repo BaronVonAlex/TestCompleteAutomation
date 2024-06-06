@@ -19,16 +19,16 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Prp name="status" type="I" value="0"/>
-		<Prp name="root logdata name" type="S" value="Script Test Log [Test_Runner\executeTests]"/>
-		<Prp name="root file name" type="S" value="RootLogData.dat"/>
-		<Prp name="test type" type="S" value="executeTests"/>
-		<Prp name="stop time" type="D" value="45449.6760438657"/>
-		<Prp name="completed" type="B" value="-1"/>
-		<Prp name="error count" type="I" value="0"/>
-		<Prp name="computer name" type="S" value="BARONVONALEX"/>
-		<Prp name="user name" type="S" value="Master PC"/>
-		<Prp name="start time" type="D" value="45449.6760073495"/>
 		<Prp name="warning count" type="I" value="0"/>
+		<Prp name="root logdata name" type="S" value="Script Test Log [Test_Runner\executeTests]"/>
+		<Prp name="test type" type="S" value="executeTests"/>
+		<Prp name="root file name" type="S" value="RootLogData.dat"/>
+		<Prp name="stop time" type="D" value="45449.7111107176"/>
+		<Prp name="completed" type="B" value="-1"/>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="start time" type="D" value="45449.7110733681"/>
+		<Prp name="error count" type="I" value="0"/>
+		<Prp name="user name" type="S" value="Master PC"/>
+		<Prp name="computer name" type="S" value="BARONVONALEX"/>
 	</Node>
 </Nodes>

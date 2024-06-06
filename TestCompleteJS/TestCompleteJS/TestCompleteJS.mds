@@ -17,6 +17,15 @@
 				<Variable Name="NEW_ORDER_Text" Type="String" Local="True">
 					<DefValue />
 				</Variable>
+				<Variable Name="STREET_EXP_VALUE" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="CITY_EXP_VALUE" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="ZIP_EXP_VALUE" Type="String" Local="True">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

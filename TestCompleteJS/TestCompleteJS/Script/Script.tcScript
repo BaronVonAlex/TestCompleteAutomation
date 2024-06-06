@@ -5,6 +5,7 @@
 			<folder name="common">
 				<child name="CommonSteps" key="{C60BD75B-A2CF-47CE-8DA7-6E8BCE567FFA}" path="CommonSteps.js" />
 				<child name="EventHandler" key="{22AF0014-D487-4C26-8B98-DC572BDD8CDD}" path="EventHandler.js" />
+				<child name="Assertions" key="{F710D427-356E-4D65-AE21-E95668531142}" path="Assertions.js" />
 			</folder>
 			<folder name="data">
 				<child name="Data" key="{828CE207-8395-46D1-B620-674C0F0E5BBF}" path="Data.js" />

@@ -1,4 +1,6 @@
-﻿var data = require("Data")
+﻿var Assertions = require("Assertions");
+var Assertions = require("Assertions");
+var data = require("Data")
 
 class AddOrderPage{
   constructor(){
@@ -54,6 +56,33 @@ class AddOrderPage{
   
   addOrderByPressingButton(){
     this.newOrderConfirmButton.Click();
+    return this;
+  }
+  
+  validateStreetField(){
+    var streetFieldValue = this.streetInput.WndCaption;
+    var stringObj = aqConvert.VarToStr(streetFieldValue);
+    
+    Assertions.assertValues(stringObj, Project.Variables.STREET_EXP_VALUE);
+    
+    return this;
+  }
+  
+  validateCityField(){
+    var cityFieldValue = this.cityInput.WndCaption;
+    var stringObj = aqConvert.VarToStr(cityFieldValue);
+    
+    Assertions.assertValues(cityFieldValue, Project.Variables.CITY_EXP_VALUE);
+    
+    return this;
+  }
+  
+  validateZipField(){
+    var zipFieldValue = this.zipInput.WndCaption;
+    var stringObj = aqConvert.VarToStr(zipFieldValue);
+    
+    Assertions.assertValues(zipFieldValue, Project.Variables.ZIP_EXP_VALUE);
+    
     return this;
   }
 }

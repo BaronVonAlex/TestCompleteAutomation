@@ -18,25 +18,8 @@ function todaysDateMultiplication(){
 }
 
 function checkIfParamIsPalindrome(){
-  Log.Checkpoint("Palindrome Check: " + PalindromeUtil.isPalindrome("deified"));
+  Log.Checkpoint("Palindrome Check: " + PalindromeUtil.isPalindrome("DeiFiE"));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function runAllTests(){
   numberConcatTest();
@@ -44,4 +27,5 @@ function runAllTests(){
   todaysDateMultiplication();
   checkIfParamIsPalindrome();
 }
+
 module.exports.runAllTests = runAllTests;
