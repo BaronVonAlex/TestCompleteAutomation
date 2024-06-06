@@ -1,9 +1,12 @@
 ﻿module.exports = {    
-    firstNum: 111,
-    secondNum: 231,
-    thirdNum: 123, 
+    firstNum: 123,
+    secondNum: 321,
+    thirdNum: 222, 
 
     streetAddress: "თბილისი, თამარაშვილის N1, 0182",
+    
+    randomWordOne: "CAPITAL OF FRANCE",
+    randomWordTwo: "triple cheesburger"
 };
     
 var longMonths = [

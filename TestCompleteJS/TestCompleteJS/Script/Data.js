@@ -1,7 +1,7 @@
 ﻿module.exports = {    
-    firstNum: 111,
-    secondNum: 231,
-    thirdNum: 123, 
+    firstNum: 551,
+    secondNum: 321,
+    thirdNum: 222, 
 
     streetAddress: "თბილისი, თამარაშვილის N1, 0182",
     

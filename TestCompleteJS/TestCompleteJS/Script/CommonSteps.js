@@ -16,20 +16,20 @@ function SumOfDigitsConcatenation(num1, num2, num3) {
     var secondNumToStr = aqConvert.VarToStr(num2);
     var thirdNumToStr = aqConvert.VarToStr(num3);
 
-    var sumOfDigitsNum1 = 0;
-    var sumOfDigitsNum2 = 0;
-    var sumOfDigitsNum3 = 0;
+    var sumOfDigitsNum1 = 1;
+    var sumOfDigitsNum2 = 1;
+    var sumOfDigitsNum3 = 1;
 
     for (var i = 0; i < firstNumToStr.length; i++) {
-      sumOfDigitsNum1 += parseInt(firstNumToStr[i]);
+      sumOfDigitsNum1 *= parseInt(firstNumToStr[i]);
     }
 
     for (var i = 0; i < secondNumToStr.length; i++) {
-      sumOfDigitsNum2 += parseInt(secondNumToStr[i]);
+      sumOfDigitsNum2 *= parseInt(secondNumToStr[i]);
     }
 
     for (var i = 0; i < thirdNumToStr.length; i++) {
-      sumOfDigitsNum3 += parseInt(thirdNumToStr[i]);
+      sumOfDigitsNum3 *= parseInt(thirdNumToStr[i]);
     }
 
     var concatenated1stAnd2nd = aqString.Concat(
@@ -41,7 +41,7 @@ function SumOfDigitsConcatenation(num1, num2, num3) {
     
     return concatSum;
   } else {
-    throw new Error("Input numbers should be 3 digit.");
+    Log.Error("Input numbers should be 3 digit.");
   }
 }
 

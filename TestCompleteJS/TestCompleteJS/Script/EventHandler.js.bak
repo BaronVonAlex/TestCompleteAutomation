@@ -20,5 +20,5 @@ function EventControl1_OnLogError(Sender, LogParams)
 
 function EventControl1_OnUnexpectedWindow(Sender, Window, LogParams)
 {
-  Log.Error("Unexpected window detected: " + Window.Name);
+  Log.Warning("Unexpected window detected: " + Window.Name);
 }
