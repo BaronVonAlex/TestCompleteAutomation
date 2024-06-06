@@ -1,0 +1,5 @@
+﻿var Test1 = require("Test1");
+
+function executeTests(){
+  Test1.runAllTests();
+}
